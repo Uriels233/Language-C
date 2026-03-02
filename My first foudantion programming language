@@ -1,0 +1,16 @@
+#include <stdio.h> //This allows us to "Input" and "Output" data
+
+int main() {
+    //Your logic goes here!
+    float celcius, conversion;
+    printf(" What's value of celcius?");
+    scanf("%f", &celcius);
+    conversion = ((celcius * 1.8) + 32);
+    printf("Celsius converteded to Farenheit is: %f", conversion);
+
+
+    
+    
+
+    return 0;  //Tells the computer "Everything went okay."
+}
